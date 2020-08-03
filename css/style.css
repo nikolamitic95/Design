@@ -182,6 +182,9 @@
     padding-top: 100px; }
     .sixth .full-team .team-images {
       width: 100%; }
+    .sixth .full-team .team-images:hover {
+      transform: scale(1.1);
+      transform-origin: bottom; }
     .sixth .full-team .social-img {
       width: 85px;
       padding-bottom: 15px;
@@ -192,6 +195,9 @@
   .sixth .cardd {
     padding-bottom: 20px; }
 
+@media screen and (max-width: 576px) {
+  .team-images:hover {
+    transform: none !important; } }
 .seventh {
   background-image: url(../images/contact-background.jpg);
   background-repeat: no-repeat;
@@ -215,7 +221,8 @@
     margin-top: 25px; }
   .seventh .socialic {
     margin-top: 25px;
-    padding-bottom: 25px; }
+    padding-bottom: 25px;
+    text-align: end; }
   .seventh .formss {
     border-radius: 10px; }
   .seventh #formGroupExampleInput {
@@ -225,7 +232,15 @@
     border-radius: 10px; }
   .seventh .socialicons {
     width: 310px; }
+  .seventh .button-soc {
+    text-align: start; }
 
+@media screen and (max-width: 768px) {
+  .socialic {
+    text-align: center !important; } }
+@media screen and (max-width: 768px) {
+  .button-soc {
+    text-align: center !important; } }
 #footer {
   line-height: 100px;
   background-color: #323442; }

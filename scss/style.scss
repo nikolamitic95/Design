@@ -253,6 +253,10 @@
     .team-images {
       width: 100%;
     }
+    .team-images:hover{
+      transform: scale(1.1);
+      transform-origin: bottom;
+    }
     .social-img {
       width: 85px;
       padding-bottom: 15px;
@@ -268,7 +272,11 @@
   }
 }
 
-
+@media screen and (max-width: 576px) {
+  .team-images:hover {
+    transform: none !important;
+  }
+}
 
 .seventh {
   background-image: url(../images/contact-background.jpg);
@@ -299,6 +307,7 @@
   .socialic {
     margin-top: 25px;
     padding-bottom: 25px;
+    text-align: end;
   }
   .formss {
     border-radius: 10px;
@@ -312,6 +321,21 @@
   }
   .socialicons {
     width: 310px;
+  }
+  .button-soc{
+    text-align: start;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .socialic {
+    text-align: center !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .button-soc {
+    text-align: center !important;
   }
 }
 
