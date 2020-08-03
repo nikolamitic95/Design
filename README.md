@@ -1,5 +1,7 @@
 ## Design Page
 
+Fully responsive.
+
 DEMO: [Design Page](https://nikolamitic95.github.io/Design/) 
 
 This page was created using:
