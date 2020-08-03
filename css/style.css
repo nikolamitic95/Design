@@ -1,0 +1,238 @@
+.first {
+  background-image: url(../images/main-banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 100px; }
+  .first .menu {
+    padding-top: 50px; }
+    .first .menu h5 {
+      font-size: 20px;
+      color: white; }
+    .first .menu span {
+      color: rgba(255, 72, 0, 0.938); }
+    .first .menu p {
+      font-size: 20px;
+      color: white;
+      text-align: end; }
+  .first .title {
+    padding-top: 90px; }
+    .first .title h1 {
+      font-size: 60px;
+      color: white;
+      font-weight: bold; }
+    .first .title span {
+      color: rgba(255, 72, 0, 0.938); }
+  .first .content {
+    font-size: 20px;
+    color: white; }
+  .first .buttons {
+    padding-top: 50px; }
+    .first .buttons #btn1 {
+      border: solid 0.5px;
+      font-weight: bold;
+      width: 200px;
+      height: 45px;
+      border-radius: 10px;
+      margin-bottom: 20px; }
+    .first .buttons #btn2 {
+      border: solid 0.5px;
+      font-weight: bold;
+      width: 200px;
+      height: 45px;
+      border-radius: 10px; }
+    .first .buttons #btn1:hover {
+      background-color: rgba(255, 72, 0, 0.938);
+      border: none;
+      color: white; }
+    .first .buttons #btn2:hover {
+      background-color: rgba(255, 72, 0, 0.938);
+      border: none;
+      color: white; }
+  .first .downimg {
+    padding-top: 150px;
+    padding-bottom: 50px; }
+
+.second .circle {
+  width: 150px;
+  height: 150px;
+  border: gray 1px solid;
+  border-radius: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 35px; }
+.second .character {
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column; }
+  .second .character h4 {
+    margin-bottom: 15px; }
+
+@media only screen and (max-width: 992px) {
+  .character {
+    margin-bottom: 20px; } }
+.third {
+  background-image: url(../images/newsletter-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-bottom: 100px; }
+  .third #btn3 {
+    width: 250px;
+    color: white;
+    background-color: rgba(255, 72, 0, 0.938);
+    border: none;
+    border-radius: 10px;
+    height: 45px;
+    font-weight: bold; }
+  .third #input {
+    border-radius: 10px;
+    margin-bottom: 15px;
+    height: 45px; }
+
+.titles {
+  font-weight: bold; }
+  .titles span {
+    color: rgba(255, 72, 0, 0.938); }
+
+.fourth #btn4 {
+  margin-bottom: 90px;
+  margin-top: 90px;
+  width: 200px;
+  height: 45px;
+  border: solid 0.7px #dacfcf;
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: bold;
+  color: #423f3f; }
+.fourth .worksrow {
+  margin-top: 100px; }
+  .fourth .worksrow .absolute {
+    background-color: rgba(235, 109, 59, 0.938);
+    opacity: 0;
+    transition: 0.75s;
+    border-radius: 10px;
+    width: 92.5%;
+    height: 92%;
+    position: absolute;
+    top: 0; }
+    .fourth .worksrow .absolute h6 {
+      font-size: 25px;
+      padding-top: 70px;
+      color: white; }
+    .fourth .worksrow .absolute p {
+      color: white; }
+    .fourth .worksrow .absolute button {
+      margin-top: 50px;
+      background-color: white;
+      color: rgba(255, 72, 0, 0.938);
+      border: solid none;
+      font-weight: bold;
+      width: 200px;
+      height: 45px;
+      border-radius: 10px; }
+  .fourth .worksrow .absolute:hover {
+    opacity: 1; }
+  .fourth .worksrow .projects {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 30px; }
+
+@media screen and (max-width: 1200px) and (min-width: 992px) {
+  .absolute {
+    width: 90.5% !important;
+    height: 90.5% !important; } }
+@media screen and (max-width: 992px) and (min-width: 768px) {
+  .absolute {
+    width: 92% !important;
+    height: 92% !important; } }
+@media screen and (max-width: 768px) and (min-width: 492px) {
+  .absolute {
+    width: 94.5% !important;
+    height: 94.5% !important; } }
+@media screen and (max-width: 492px) {
+  .absolute {
+    width: 92% !important;
+    height: 92% !important; } }
+.fifth {
+  background-image: url(../images/testimonials-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .fifth #profile {
+    padding-top: 90px;
+    padding-bottom: 10px; }
+  .fifth .profile-txt {
+    color: white;
+    font-size: 25px;
+    font-style: italic;
+    margin-top: 20px; }
+  .fifth .profile-name {
+    color: white;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 90px; }
+
+.sixth {
+  margin-top: 90px;
+  margin-bottom: 130px; }
+  .sixth .full-team {
+    padding-top: 100px; }
+    .sixth .full-team .team-images {
+      width: 100%; }
+    .sixth .full-team .social-img {
+      width: 85px;
+      padding-bottom: 15px;
+      padding-top: 15px; }
+    .sixth .full-team .team-name {
+      font-size: 20px;
+      padding-top: 20px; }
+  .sixth .cardd {
+    padding-bottom: 20px; }
+
+.seventh {
+  background-image: url(../images/contact-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 100px; }
+  .seventh .title-say {
+    padding-top: 90px;
+    color: white; }
+    .seventh .title-say span {
+      color: rgba(255, 72, 0, 0.938);
+      font-weight: bold; }
+  .seventh .say-p {
+    color: white;
+    padding-bottom: 70px; }
+  .seventh #btn5 {
+    color: white;
+    width: 200px;
+    height: 45px;
+    background-color: rgba(255, 72, 0, 0.938);
+    border-radius: 10px;
+    margin-top: 25px; }
+  .seventh .socialic {
+    margin-top: 25px;
+    padding-bottom: 25px; }
+  .seventh .formss {
+    border-radius: 10px; }
+  .seventh #formGroupExampleInput {
+    border-radius: 10px;
+    padding: 22px; }
+  .seventh #exampleFormControlTextarea1 {
+    border-radius: 10px; }
+  .seventh .socialicons {
+    width: 310px; }
+
+#footer {
+  line-height: 100px;
+  background-color: #323442; }
+  #footer p {
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 25px; }
+
+/*# sourceMappingURL=style.css.map */
